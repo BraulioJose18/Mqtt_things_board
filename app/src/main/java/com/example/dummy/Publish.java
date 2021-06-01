@@ -102,6 +102,7 @@ public class Publish extends AppCompatActivity {
         bt_disc.setEnabled(true);
         publishBackground.setOn(false);
         stopService(i_service);
+        Toast.makeText(getBaseContext(),"Servicio detenido",Toast.LENGTH_LONG).show();
     }
     public void disconect(View v){
         try {
